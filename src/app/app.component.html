@@ -4,4 +4,22 @@
   <h1>{{obj    | json     }}</h1>
 </div>
 
-<button pButton  (click)="mostrarNombre()" label="Cambiar Nombre"></button>
+<button pButton  (click)="mostrarNombre()"
+                  label="Cambiar Nombre"
+                  icon="pi pi-thumbs-up"
+                  iconPos="right"
+                  class="p-button-help"></button>
+<hr>
+
+<br><br><br>
+
+<p-card header="{{nombre | titlecase}}">
+  Lorem ipsum dolor sit amet, consectetur <br>
+  adipisicing elit. Inventore sed consequuntur error<br>
+  repudiandae numquam deserunt quisquam repellat<br>
+  libero asperiores earum nam nobis, culpa ratione<br>
+  quam perferendis esse, cupiditate neque quas!
+</p-card>
+
+<hr> <br><br><br>
+

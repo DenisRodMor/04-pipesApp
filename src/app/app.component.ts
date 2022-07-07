@@ -11,6 +11,7 @@ export class AppComponent  {
   valor  : number = 1000;
   obj = {nombre: 'DennisRodMor'};
 
+
   mostrarNombre(){
     console.log(this.nombre);
   }
