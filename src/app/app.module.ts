@@ -3,10 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
+//Modulo personalizado
+import { PrimeNgModule } from './prime-ng/prime-ng.module';
 
-import {ButtonModule} from 'primeng/button';
-import {CardModule} from 'primeng/card';
-import {DataViewModule} from 'primeng/dataview';
+
 
 
 @NgModule({
@@ -15,9 +15,8 @@ import {DataViewModule} from 'primeng/dataview';
   ],
   imports: [
     BrowserModule,
-    ButtonModule,
-    CardModule,
-    DataViewModule
+    PrimeNgModule
+
   ],
   providers: [
 
