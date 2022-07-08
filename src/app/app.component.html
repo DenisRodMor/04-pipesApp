@@ -1,18 +1,5 @@
-<div class="text-layout">
-  <h1>{{nombre | titlecase}}</h1>
-  <h1>{{valor  | number   }}</h1>
-  <h1>{{obj    | json     }}</h1>
-</div>
-
-<button pButton  (click)="mostrarNombre()"
-                  label="Cambiar Nombre"
-                  icon="pi pi-thumbs-up"
-                  iconPos="right"
-                  class="p-button-help"></button>
-<hr>
-
-<br><br><br>
-
+<app-menu></app-menu>
+<hr><br><br><br>
 <p-card header="{{nombre | titlecase}}">
   Lorem ipsum dolor sit amet, consectetur <br>
   adipisicing elit. Inventore sed consequuntur error<br>
@@ -20,7 +7,7 @@
   libero asperiores earum nam nobis, culpa ratione<br>
   quam perferendis esse, cupiditate neque quas!
 </p-card>
-
 <hr> <br>
 
-<app-menu></app-menu>
+<router-outlet></router-outlet>
+

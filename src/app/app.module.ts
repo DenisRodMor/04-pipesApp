@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 //Modulo personalizado
 import { PrimeNgModule } from './prime-ng/prime-ng.module';
 import { SharedModule } from './shared/shared.module';
+import { AppRouterModule } from './app-router.module';
 
 
 
@@ -15,9 +16,11 @@ import { SharedModule } from './shared/shared.module';
     AppComponent
   ],
   imports: [
+    AppRouterModule,
     BrowserModule,
     PrimeNgModule,
     SharedModule
+
 
   ],
   providers: [
