@@ -11,16 +11,15 @@
 <div class="p-grid">
 
   <div class="p-col-4">
-    <p-card header="Uppercase">
-    </p-card>
+    <p-card header="Uppercase - Mayúscula" [subheader]="nombreLower">Pasado a: {{nombreLower | uppercase}}</p-card>
   </div>
 
   <div class="p-col-4">
-    <p-card header="Uppercase"></p-card>
+    <p-card header="LowerCase - Minúscula" [subheader]="nombreUpper">Pasado a: {{nombreUpper | lowercase}}</p-card>
   </div>
 
   <div class="p-col-4">
-    <p-card header="Uppercase"></p-card>
+    <p-card header="TitleCase - Titulado" [subheader]="nombreCompleto">Pasado a: {{nombreCompleto | titlecase}}</p-card>
   </div>
 
 </div>
