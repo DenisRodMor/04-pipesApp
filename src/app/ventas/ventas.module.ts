@@ -7,6 +7,7 @@ import { OrdenarComponent } from './pages/ordenar/ordenar.component';
 import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 
 import {CardModule} from 'primeng/card';
+import {AutoCompleteModule} from 'primeng/autocomplete';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import {CardModule} from 'primeng/card';
   imports: [
     CommonModule,
     PrimeNgModule,
-    CardModule
+    CardModule,
+    AutoCompleteModule
   ],
   exports:[
     NumerosComponent,
