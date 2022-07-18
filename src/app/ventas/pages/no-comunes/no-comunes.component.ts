@@ -44,4 +44,16 @@ export class NoComunesComponent  {
     edad: 21,
     direccion: 'Naranjo, Costa Rica'
   }
+
+  //JSON PIPE
+  heroes = [
+    {
+      nombre:'Hulk',
+      vuela:false
+    },
+    {
+      nombre:'IronMan',
+      vuela:true
+    }
+ ]
 }
