@@ -8,6 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OrdenarComponent  {
 
+enMayusculas : boolean = true;
 
+convertir(){
+  this.enMayusculas = !this.enMayusculas;
+}
 
 }

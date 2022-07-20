@@ -6,8 +6,18 @@ import { Pipe, PipeTransform } from "@angular/core";
 export class MayusculasPipe implements PipeTransform {
 
 
-  transform(value: string): string {
-    return 'HOLA MUNDO!!';
+  transform(value: string, enMayusculas : boolean = true): string {
+
+    // if (enMayusculas){
+    //       return value.toUpperCase();
+    // }
+    // else{
+    //   return value.toLowerCase();
+    // }
+
+    return (enMayusculas) ? value.toUpperCase(): value.toLowerCase();
+
+    //SIRVE DE AMBAS MANERAS
 }
 
 

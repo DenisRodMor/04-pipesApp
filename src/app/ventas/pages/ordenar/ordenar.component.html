@@ -1,6 +1,8 @@
 <div class="text-layout">
   <h1>Pipes Personalizados</h1>
   <p>
-    Pipes creados por {{'nosotros' | mayusculas}}.
+    Pipes creados por {{'nosotros' | mayusculas : enMayusculas }}.
   </p>
+
+  <button pButton icon="pi pi-android"  type="button" label="Toogle mayusculas" (click)="convertir()" ></button>
 </div>
