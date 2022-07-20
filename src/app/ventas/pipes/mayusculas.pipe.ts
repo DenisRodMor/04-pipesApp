@@ -3,12 +3,12 @@ import { Pipe, PipeTransform } from "@angular/core";
 @Pipe({
   name: 'mayusculas'
 })
-export class MayusculasPipe implements PipeTransform{
+export class MayusculasPipe implements PipeTransform {
 
 
-  transform(): string {
-    return 'HOLA MUNDO!';
-  }
+  transform(value: string): string {
+    return 'HOLA MUNDO!!';
+}
 
 
 }
