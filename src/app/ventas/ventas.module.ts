@@ -8,6 +8,7 @@ import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 
 import {CardModule} from 'primeng/card';
 import {AutoCompleteModule} from 'primeng/autocomplete';
+import { MayusculasPipe } from './pipes/mayusculas.pipe';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import {AutoCompleteModule} from 'primeng/autocomplete';
     NumerosComponent,
     NoComunesComponent,
     BasicosComponent,
-    OrdenarComponent
+    OrdenarComponent,
+    MayusculasPipe
   ],
   imports: [
     CommonModule,

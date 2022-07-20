@@ -34,19 +34,7 @@ export class MenuComponent implements OnInit {
       {
         label: 'Pipes personalizados',
         icon:'pi pi-cog',
-        items:[
-          {label: 'Textos y Fechas',
-            icon: 'pi pi-align-left',
-            routerLink: '/'
-          },
-          {label: 'Nímeros',
-            icon: 'pi pi-dollar',
-            routerLink: 'numeros'
-          },
-          {label: 'No comunes',
-            icon: 'pi pi-globe',
-            routerLink: 'no-comunes'
-          }]
+        routerLink: 'ordenar'
       }
     ];
   }
