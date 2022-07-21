@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Color, Heroe } from '../../interfaces/ventas.interfaces';
+import { browser } from 'protractor';
 
 @Component({
   selector: 'app-ordenar',
@@ -28,10 +29,35 @@ heroes: Heroe [] = [
       color: Color.rojo
       },
       {
-        nombre: 'Black Panther',
+        nombre: 'Thor',
         vuela: false,
         color: Color.negro
         },
+        {
+          nombre: 'Capitan America',
+          vuela: false,
+          color: Color.azul
+          },
+          {
+            nombre: 'IronMan',
+            vuela: true,
+            color: Color.rojo
+            },
+            {
+              nombre: 'Ant-Man',
+              vuela: false,
+              color: Color.rojo
+              },
+              {
+                nombre: 'Black-Widow',
+                vuela: false,
+                color: Color.negro
+                },
+                {
+                  nombre: 'Doctor Strange',
+                  vuela: false,
+                  color: Color.rojo
+                  }
 
 ]
 

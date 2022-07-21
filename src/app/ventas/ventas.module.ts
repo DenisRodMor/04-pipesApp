@@ -11,6 +11,7 @@ import {AutoCompleteModule} from 'primeng/autocomplete';
 
 import { MayusculasPipe } from './pipes/mayusculas.pipe';
 import { VuelaPipe } from './pipes/vuela.pipe';
+import { OrdenarPipe } from './pipes/ordenar.pipe';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { VuelaPipe } from './pipes/vuela.pipe';
     BasicosComponent,
     OrdenarComponent,
     MayusculasPipe,
-    VuelaPipe
+    VuelaPipe,
+    OrdenarPipe
   ],
   imports: [
     CommonModule,
