@@ -10,6 +10,7 @@ import {CardModule} from 'primeng/card';
 import {AutoCompleteModule} from 'primeng/autocomplete';
 
 import { MayusculasPipe } from './pipes/mayusculas.pipe';
+import { VuelaPipe } from './pipes/vuela.pipe';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { MayusculasPipe } from './pipes/mayusculas.pipe';
     NoComunesComponent,
     BasicosComponent,
     OrdenarComponent,
-    MayusculasPipe
+    MayusculasPipe,
+    VuelaPipe
   ],
   imports: [
     CommonModule,
